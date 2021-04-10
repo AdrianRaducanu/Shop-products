@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Sirus
+        </h1>
+        <h2>
+            magazin online
+        </h2>
+        <div class="butoane">
+            <a href="#id-section-task" id="btn-h1-2">Modifica</a>
+            <a href="#id-section-elemente" id="btn-h1">Produse</a>
+        </div>
+    </header>
+    <section class = "section-task" id="id-section-task">
+        <h2>
+            Cauta elemente dupa nume
+        </h2>
+        <form class="form form-cauta">
+            <input type="text" class="input cauta-text">
+            <button type="submit" class = "submit cauta-submit">
+                Cauta!
+            </button>
+        </form>
+        <form class="form form-adauga" >
+            <h2>
+                Adauga element
+            </h2>
+            <li>
+                <p>Nume:</p>
+                <input type="text" class="input adauga-nume" >
+            </li>
+            <li>
+                <p>Pret:</p>
+                <input type="number" step="0.01" min="0" class="input adauga-pret" >
+            </li>
+            <li>
+                <p>Cantitate:</p>
+                <input type="number" class="input adauga-cantitate">
+            </li>
+            <li>
+                <p>Descriere:</p>
+                <input type="text" class="input adauga-descriere">
+            </li>
+            <li>
+                <p>Comentarii:</p>
+                <input type="text" class="input adauga-comentarii">
+            </li>
+            <li>
+                <p>Rating</p>
+                <input type="number" class="input adauga-rating" min="1" max="5">
+            </li>
+            
+            <button type="submit" class = "submit adauga-submit">
+                Adauga!
+            </button>
+        </form>
+        <form class="form form-sortare">
+            <h2>
+                Sortare elemente dupa pret
+            </h2>
+            
+                <select name="pret" class="select sortare-select">
+                    <option value="crescator">Crescator</option>
+                    <option value="descrescator">Descrescator</option>
+                </select>
+                <button type="submit" class = "submit sortare-submit">
+                    Sorteaza!
+                </button>
+        </form>
+            
+        </section>
+    </form>
+    <div class = "rand-tabel descriere">
+        <h2>
+            Tabel produse
+        </h2>       
+    </div>
+    <div class="detalii">
+        <ul>
+            
+            <li>
+                <i class="fa fa-address-card-o"></i>
+            </li>
+            <li>
+                <i class="fa fa-bitcoin"></i>
+            </li>
+            <li id="cant">
+                <i class="fa fa-database"></i>
+            </li>
+            <li id="desc">
+                <i class="fa fa-file-text-o"></i>
+            </li>
+            <li id="comm">
+                <i class="fa fa-comments"></i>
+            </li>
+            <li id="rate">
+                <i class="fa fa-thumbs-o-up"></i>
+            </li>
+            
+        </ul>
+    </div>
+    <section class="section-elemente" id="id-section-elemente">
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

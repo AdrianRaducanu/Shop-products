@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(23, 37, 48, 0.164),
+      rgba(23, 37, 48, 0.486)
+    ),
+    url("lucrezia-carnelos-wQ9VuP_Njr4-unsplash.jpg"),
+    linear-gradient(rgba(23, 37, 48, 0.452), rgb(23, 37, 48));
+  background-size: cover;
+}
+header h2 {
+  color: rgb(224, 195, 150);
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+h1 {
+  color: rgb(224, 195, 150);
+  font-size: 100px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+#btn-h1,
+#btn-h1-2 {
+  text-decoration: none;
+  background-color: transparent;
+  color: rgb(224, 195, 150);
+  border: 1px solid rgb(224, 195, 150);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 4px 7px;
+  margin-right: 10px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+#btn-h1:active,
+#btn-h1:hover,
+#btn-h1-2:active,
+#btn-h1-2:hover {
+  background-color: rgb(224, 195, 150);
+  color: rgb(23, 37, 48);
+}
+.section-task {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(23, 37, 48);
+  color: rgb(224, 195, 150);
+  font-size: 25px;
+}
+.section-task input,
+.section-task select {
+  color: rgb(23, 37, 48);
+  border: transparent;
+  appearance: none;
+  padding: 2px 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  letter-spacing: 1px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  color: rgb(23, 37, 48);
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  color: rgb(23, 37, 48);
+  -moz-appearance: textfield;
+}
+button {
+  text-decoration: none;
+  background-color: transparent;
+  color: rgb(224, 195, 150);
+  border: 1px solid rgb(224, 195, 150);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 3px 7px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+button:active,
+button:hover {
+  background-color: rgb(224, 195, 150);
+  color: rgb(23, 37, 48);
+}
+form {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 100px;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+.form-adauga {
+  display: inline-block;
+}
+.form-adauga button {
+  margin-left: 10px;
+}
+.form-adauga li {
+  margin: 0 10px;
+  font-weight: lighter;
+  font-size: 18px;
+
+  display: inline-block;
+  width: 12%;
+}
+.form-sortare {
+  margin-bottom: 150px;
+}
+.section-elemente {
+  padding-top: 20px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(23, 37, 48);
+  color: rgb(224, 195, 150);
+}
+
+/*style js*/
+
+.descriere {
+  margin: 30px 0px 30px 0px;
+  font-size: large;
+  color: rgb(23, 37, 48);
+}
+.descriere h2 {
+  margin: 0;
+}
+
+.input-tabel {
+  text-align: center;
+  margin: 10px 2px 10px 5px;
+  border: transparent;
+  padding: 3px 7px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(23, 37, 48);
+}
+
+.input-sterge,
+.input-edit {
+  width: 60px;
+  text-decoration: none;
+  background-color: transparent;
+  color: rgb(224, 195, 150);
+  border: 1px solid rgb(224, 195, 150);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 4px 7px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+.input-sterge:active,
+.input-sterge:hover,
+.input-edit:active,
+.input-edit:hover {
+  background-color: rgb(224, 195, 150);
+  color: rgb(23, 37, 48);
+}
+.detalii {
+  background-color: rgb(23, 37, 48);
+  color: rgb(224, 195, 150);
+}
+.detalii ul {
+  list-style-type: none;
+  padding-top: 100px;
+  padding-left: 25%;
+}
+.detalii ul li {
+  display: inline;
+  margin-right: 10%;
+  text-align: center;
+}
+
+/*pt js*/
+.input-id {
+  display: none;
+}
